@@ -33,7 +33,7 @@
     </style>
     <script type="text/javascript" class="silex-script">
         $( document ).ready(function() {
-            $('#button').click(function(){
+            $('#calculate').click(function(){
                 var x = $('#x').val();
                 var y = $('#y').val();
                 var z = $('#z').val();
@@ -50,6 +50,10 @@
                 if(x!=0 && z!=0 && t!=0){
                     $('#y').val((x*t)/z);
                 }
+            });
+            
+            $('#erase').click(function(){
+                
             });
         });
     </script>
