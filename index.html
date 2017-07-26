@@ -33,7 +33,14 @@
     </style>
     <script type="text/javascript" class="silex-script">
         $( document ).ready(function() {
-            console.log( "ready!" );
+            var x = $('#x');
+            var y = $('#y');
+            var z = $('#z');
+            var t = $('#t');
+            
+            if((x||y||z||t)==0){
+                alert("NUL");
+            }
         });
     </script>
     <style class="silex-inline-styles" type="text/css">
